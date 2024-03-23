@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information -->
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+</head>
+
+<body>
+
+	<!-- Banner Section -->
+	<div class="banner">
+		<!-- Logo Images -->
+		<img src="images/one.png" alt="logo Image" class="banner-logo">
+		IMAGE GALLERY
+		
+	</div>
+	
+	<!-- Gallery Container Section -->
+	<div class="gallery-container">
+		
+		<!-- Thumbnails Section -->
+		<section class="thumbnails-section">
+            <h2> Gallery Thumbnails</h2>
+            <ul id="thumbnail-list">
+            </ul>
+        </section>
+		
+		<!-- Featured Image Section -->
+		<section class="featured-image-section">
+			<!-- Featured Image Display -->
+			<figure>
+				<img id="featured-image" src="images/flowers-pink-large.jpg" alt="Featured Image">
+				<figcaption id="image-caption">Pink Flowers </figcaption>
+			</figure>
+			
+			<!-- Image Description -->
+			<p id="image-description"></p> 
+			
+			<!-- Explore Button -->
+			<a href="#" id="explore-button" class="explore-button">Read More</a>
+		</section>
+		
+	</div>
+	
+	<!-- Footer Section -->
+	<footer class="site-footer">
+        <p>&copy; Client-Side JavaScript</p>
+    </footer>
+    
+    <!-- JavaScript Script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
