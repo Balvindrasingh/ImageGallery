@@ -13,13 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const images = [
         // Array of image objects with details
         {
-            large: 'images/flowers-pink-large.jpg',
-            small: 'images/flowers-pink-small.jpg',
-            caption: ' Pink Flowers',
-            link: 'https://commons.wikimedia.org/w/index.php?curid=62071586',
-            description: 'Market in Münster, North Rhine-Westphalia, Germany By Dietmar Rabich - Own work, CC BY-SA 4.0',
-            bannerColor: '#E493B3'
+            large: 'images/flowers-white-large.jpg',
+            small: 'images/flowers-white-small.jpg',
+            caption: ' White Flowers',
+            link: 'https://commons.wikimedia.org/w/index.php?curid=48211466',
+            description: 'Daffodils in Sentmaring park, Münster, North Rhine-Westfalia, Germany By Dietmar Rabich - Own work, CC BY-SA 4.0',
+            bannerColor: '#627254'
         },
+      
         {
             large: 'images/flowers-purple-large.jpg',
             small: 'images/flowers-purple-small.jpg',
@@ -37,12 +38,12 @@ document.addEventListener('DOMContentLoaded', () => {
             bannerColor: '#F24C3D'
         },
         {
-            large: 'images/flowers-white-large.jpg',
-            small: 'images/flowers-white-small.jpg',
-            caption: ' White Flowers',
-            link: 'https://commons.wikimedia.org/w/index.php?curid=48211466',
-            description: 'Daffodils in Sentmaring park, Münster, North Rhine-Westfalia, Germany By Dietmar Rabich - Own work, CC BY-SA 4.0',
-            bannerColor: '#627254'
+            large: 'images/flowers-pink-large.jpg',
+            small: 'images/flowers-pink-small.jpg',
+            caption: ' Pink Flowers',
+            link: 'https://commons.wikimedia.org/w/index.php?curid=62071586',
+            description: 'Market in Münster, North Rhine-Westphalia, Germany By Dietmar Rabich - Own work, CC BY-SA 4.0',
+            bannerColor: '#E493B3'
         },
         {
             large: 'images/flowers-yellow-large.jpg',
